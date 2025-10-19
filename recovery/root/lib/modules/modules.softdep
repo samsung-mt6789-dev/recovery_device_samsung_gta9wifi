@@ -1,0 +1,5 @@
+# Soft dependencies extracted from modules themselves.
+softdep usb_notify_layer post:extcon-mtk-usb
+softdep softdog pre: mtk_wdt
+softdep mt6789_dcm pre:mtk_dcm.ko
+softdep usb_notifier post:extcon-mtk-usb

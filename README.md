@@ -1,13 +1,53 @@
-# TWRP Device Tree for Galaxy Tab A9 
+# OFOX Device Tree for Galaxy Tab A9 
 
 Bringing TWRP support to the Tab A9.
 
-## To build TWRP :
+### How to install
+> Flash the latest .tar release from [releases](https://github.com/samsung-mt6789-dev/recovery_device_samsung_gta9wifi/releases), it will require patched vbmeta.img
+> 
+> Hold the recovery combination (Volume Up + Power) while the .tar is flashing via the odin tool.
+> 
+> Flash any multidisabler that has been tested on a31. 
+> 
+> You can now boot into your system and do whatever you want.
 
-```
-. build/envsetup.sh
-mka recoveryimage
-```
+### Working Features List
+>
+> - [x] Critial Partitions fail to unlock
+>
+> **Blocking checks**
+> - [x] Correct screen/recovery size
+> - [ ] Working Touch, screen  # [note](https://wiki.orangefox.tech/en/guides/recovery_no_touch)
+> - [x] Backup to internal/microSD
+> - [x] Restore from internal/microSD
+> - [x] reboot to system
+> - [x] ADB
+>
+> **Medium checks**
+> - [ ] update.zip sideload
+> - [x] UI colors (red/blue inversions)
+> - [x] Screen goes off and on
+> - [x] F2FS/EXT4 Support, exFAT/NTFS where supported
+> - [x] all important partitions listed in mount/backup lists
+> - [x] backup/restore to/from external (USB-OTG) storage
+> - [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+> - [ ] decrypt /data
+> - [x] Correct date
+>
+> **Minor checks**
+> - [ ] MTP export
+> - [x] reboot to bootloader (download)
+> - [x] reboot to recovery
+> - [x] poweroff
+> - [x] battery level
+> - [x] temperature
+> - [ ] encrypted backups
+> - [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks
+> - [ ] USB mass storage export
+> - [x] set brightness
+> - [ ] vibrate
+> - [x] screenshot
+> - [x] partition SD card
 
 ### Notes
 - Boots into TWRP UI

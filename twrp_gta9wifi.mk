@@ -22,5 +22,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gta9wifi/re
 PRODUCT_DEVICE := gta9wifi
 PRODUCT_NAME := twrp_gta9wifi
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := TWRP on Tab A9
+PRODUCT_MODEL := Galaxy Tab A9
 PRODUCT_MANUFACTURER := Samsung

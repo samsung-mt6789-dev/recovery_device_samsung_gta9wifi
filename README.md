@@ -1,6 +1,5 @@
 # TWRP Device Tree for Galaxy Tab A9 
 
-Current status, looking better by the day. 
 Bringing TWRP support to the Tab A9.
 
 ## To build TWRP :

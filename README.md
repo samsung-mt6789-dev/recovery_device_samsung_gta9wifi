@@ -18,8 +18,8 @@ Bringing custom recovery support to the Tab A9.
 > **Blocking checks**
 > - [x] Correct screen/recovery size
 > - [ ] Working Touch, screen  # [note](https://wiki.orangefox.tech/en/guides/recovery_no_touch)
-> - [x] Backup to internal/microSD
-> - [x] Restore from internal/microSD
+> - [ ] Backup to internal/microSD
+> - [ ] Restore from internal/microSD
 > - [x] reboot to system
 > - [x] ADB
 >
@@ -28,9 +28,9 @@ Bringing custom recovery support to the Tab A9.
 > - [x] UI colors (red/blue inversions)
 > - [x] Screen goes off and on
 > - [x] F2FS/EXT4 Support, exFAT/NTFS where supported
-> - [x] all important partitions listed in mount/backup lists
-> - [x] backup/restore to/from external (USB-OTG) storage
-> - [x] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+> - [ ] all important partitions listed in mount/backup lists
+> - [ ] backup/restore to/from external (USB-OTG) storage
+> - [ ] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
 > - [ ] decrypt /data
 > - [x] Correct date
 >
@@ -44,10 +44,10 @@ Bringing custom recovery support to the Tab A9.
 > - [ ] encrypted backups
 > - [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks
 > - [ ] USB mass storage export
-> - [x] set brightness
+> - [ ] set brightness
 > - [ ] vibrate
 > - [x] screenshot
-> - [x] partition SD card
+> - [ ] partition SD card
 
 ### Notes
 - Boots into TWRP UI

@@ -57,6 +57,10 @@ Bringing custom recovery support to the Tab A9.
   - temporary workaround is to build OFOX recovery
     - OFOX supports HW Key navigation for this exact reason.
 
+#### Touch on TWRP
+
+![Touch INPUT](./.github/touch.gif)
+
 #### Input Events 
 ```declarative
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000 N: Name="himax-touchscreen" P: Phys= S: Sysfs=/devices/virtual/input/input2 U: Uniq= H: Handlers=event2 sec_key_notifier B: PROP=2 B: EV=b B: KEY=400 10fff80 0 8000 168000000000 4d00081060000 B: ABS=667800000000000
